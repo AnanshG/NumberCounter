@@ -1,0 +1,235 @@
+body{
+    background-color: #1D4244;
+}
+
+
+/* .inc{
+    position: relative;
+    top: 100px;
+}
+.res{
+    position: relative;
+    top: 100px;
+}
+.dec{
+    position: relative;
+    top: 100px;
+} */
+
+  
+  /* Media queries for different screen sizes */
+  @media only screen and (min-width: 768px) {
+    /* Styles for tablets and larger */
+    .head{
+        margin-left: 15%;
+        margin-bottom: 15px;
+        width: 500px;
+        height: 88px;
+        background-color: #862196;
+        font-size: 2rem; 
+        text-align: center;
+        padding: 15px 10px 2.5px 5px; 
+    }
+    
+    h1{
+        margin: 0;
+    }
+    h2{
+        margin: 0;
+    }
+    
+    .box{
+        position: relative;
+        margin-left: 40px;
+    }
+    .increment{
+        position: absolute;
+        margin: 0;
+        background-color:#1AE73B ;
+        width:217px;
+        height:125px ;
+        text-align: center;
+        font-size: 1rem;
+        
+    }
+    .decrement{
+        margin: 0;
+        background-color: #29327E;
+        height:125px;
+        width:217px;
+        position: absolute;
+        left: 449px;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .reset{
+        margin: 0;
+        background-color:#C31818 ;
+        height:125px ;
+        width:200px ;
+        position: absolute;
+        left: 232px;
+        text-align: center;
+        font-size: 1rem;
+        
+    }
+    .counter{
+        width: 325px;
+        height: 95px;
+        background-color: #9A771E;
+        margin-left: 27%;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .count{
+        position: relative;
+        top: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    /* Styles for desktop */
+    .head{
+        margin-left: 15%;
+        margin-bottom: 30px;
+        width: 1000px;
+        height: 167px;
+        background-color: #862196;
+        font-size: 3.5rem; 
+        text-align: center;
+        padding: 30px 20px 5px 10px; 
+    }
+    
+    h1{
+        margin: 0;
+    }
+    h2{
+        margin: 0;
+    }
+    
+    .box{
+        position: relative;
+        margin-left: 80px;
+    }
+    .increment{
+        margin-left: 400px;
+        position: absolute;
+        margin: 0;
+        background-color:#1AE73B ;
+        width:434px;
+        height:250px ;
+        text-align: center;
+        font-size: 2rem;
+        
+    }
+    .decrement{
+        margin: 0;
+        background-color: #29327E;
+        height:250px;
+        width:434px;
+        position: absolute;
+        left: 898px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .reset{
+        margin: 0;
+        background-color:#C31818 ;
+        height:250px ;
+        width:400px ;
+        position: absolute;
+        left: 464px;
+        text-align: center;
+        font-size: 2rem;
+        
+    }
+    .counter{
+        width: 650px;
+        height: 190px;
+        background-color: #9A771E;
+        margin-left: 27%;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 4rem;
+    }
+    
+    .count{
+        position: relative;
+        top: 40px;
+    }
+  }
+
+  /* Media queries for different screen sizes */
+@media only screen and (max-width: 767px) {
+    /* Styles for mobile screens */
+    .head{
+        margin-left: 27%;
+        margin-bottom: 15px;
+        width: 250px;
+        height: 44px;
+        background-color: #862196;
+        font-size: 1rem; 
+        text-align: center;
+        padding: 7.5px 5px 1.25px 2.5px; 
+    }
+    
+    h1{
+        margin: 0;
+    }
+    h2{
+        margin: 0;
+    }
+    
+    .box{
+        position: relative;
+        margin-left: 20px;
+    }
+    .increment{
+        position: absolute;
+        margin: 0;
+        margin-left: 17%;
+        background-color:#1AE73B ;
+        width:108px;
+        height:62px ;
+        text-align: center;
+        font-size: 0.5rem;
+        
+    }
+    .decrement{
+        margin: 0;
+        background-color: #29327E;
+        height:62px;
+        width:108px;
+        position: absolute;
+        left: 304px;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    .reset{
+        margin: 0;
+        background-color:#C31818 ;
+        height:62px ;
+        width:100px ;
+        position: absolute;
+        left: 196px;
+        text-align: center;
+        font-size: 0.5rem;
+        
+    }
+    .counter{
+        width: 162px;
+        height: 47px;
+        background-color: #9A771E;
+        margin-left: 37%;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    .count{
+        position: relative;
+        top: 10px;
+    }
+  }
